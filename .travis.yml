@@ -5,4 +5,4 @@ compiler:
   - gcc
 os:
 - linux
-install: make get-deps
+install: make
