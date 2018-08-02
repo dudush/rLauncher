@@ -1,10 +1,10 @@
 all: rlauncher
 
 rlauncher: run.o
-	gcc -o rlauncher rlauncher.out -std=c++11
+	gcc -std=c++11 -o rlauncher rlauncher.out
 
 rlauncher.out: run.cpp
-	gcc -c run.cpp -std=c++11
+	gcc -std=c++11 -c run.cpp
 
 clean:
 	rm rlauncher.out rlauncher
